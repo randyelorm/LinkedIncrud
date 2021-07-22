@@ -1,0 +1,45 @@
+.posted_profile_img {
+    width: 50px;
+    border-radius: 50px;
+    margin: 0.5rem;
+
+}
+
+.posted_box {
+    background-color: white;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid #E2E1DF;
+}
+
+.img_name_descrip {
+    display:flex;
+}
+
+.randy_davoh {
+    font-weight: bold;
+}
+
+.descrip {
+    color: #717171;
+    font-size: 0.9rem;
+}
+
+.posted_text {
+    color:red;
+    width: 10%;
+    
+}
+
+.posted_input {
+    border: none;
+    width: 100%;
+    height: auto;
+    resize: none;
+}
+
+
+.posted_input:focus {
+        outline:none
+}

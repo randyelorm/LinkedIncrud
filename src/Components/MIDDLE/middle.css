@@ -1,0 +1,35 @@
+.middle-box{
+    margin-top: 4rem !important;
+    
+    margin: 0px;
+    padding: 0px;
+ 
+
+}
+
+
+.mymodal {
+margin-top: 10rem;
+}
+
+
+.inputPost {
+  border: none;
+  width: 100%;
+}
+
+
+.inputPost:focus {
+  border: none;
+  outline: none;
+}
+
+
+
+.form-img {
+  display: flex;
+}
+
+@media (max-width: 765px) {
+   
+  }

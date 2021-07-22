@@ -1,0 +1,15 @@
+.nav-box  {
+    color:#0A66C2;
+    position:fixed;
+    width: 100%;
+    z-index: 999999999;
+    text-align: center;
+    background-color:white;
+    padding: 0.5rem;
+   
+}
+
+
+.far-linkedin {
+    color:black;
+}

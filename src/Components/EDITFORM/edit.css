@@ -1,0 +1,21 @@
+
+
+
+
+.edit_input {
+    border:none !important;
+    width: 100% !important;
+    
+    padding:0rem !important;
+
+
+}
+
+.edit_input:focus {
+    outline:none!important;
+   
+}
+
+.post-btn {
+    width: 12%;
+}

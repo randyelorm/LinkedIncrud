@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./Components/NAVBAR/Navbar"
+import LeftColumn from "./Components/LEFT/LeftColumn"
+import MiddleColumn from "./Components/MIDDLE/MiddleColumn"
+import RightColumn from "./Components/RIGHT/RightColumn";
+import "./App.css"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+import React, { Component } from 'react';
+
+class App extends Component {
+
+
+  render() {
+    return (
+      <div>
+          <Navbar/>
+
+          <div className = "down_components">
+          
+            <MiddleColumn/>
+          
+   
+          </div>
+
+       
+      </div>
+    );
+  }
 }
 
 export default App;
+
+
+
+
+
+
+

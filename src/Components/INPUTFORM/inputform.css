@@ -1,0 +1,70 @@
+.profile_img_form {
+    width: 50px;
+    border-radius: 50px;
+    margin: 0.5rem;
+
+}
+
+.img-form {
+    display: flex;
+    align-items: center !important;
+    min-width: 0;
+  
+   
+}
+
+.middle_top {
+    background-color: white;
+    border: 1px solid #E2E1DF;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+.input {
+ 
+    border-radius: 50px !important;
+    margin-top: 0.5rem;
+    width: 100%;
+   
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+}
+
+.modal_text_area {
+    width: 100%;
+    border:none;
+    resize: none;
+   
+    
+}
+
+.modal_text_area:focus {
+    outline:none
+}
+
+.post-btn {
+    border:none;
+    padding:0.5rem;
+    font-weight: bold;
+}
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .input {
+       width: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .input {
+       width: 180%;
+    }
+}

@@ -1,0 +1,17 @@
+.right-box {
+   
+    position:sticky;
+    top:30;
+    margin-top: 4rem !important;
+    margin: 20px;
+    padding: 0px;
+    color:cornflowerblue;
+    border: 1px solid black;
+}
+
+
+@media (max-width: 768px) {
+    .right-box{
+        margin-top:40px !important;
+    }
+  }
