@@ -110,18 +110,22 @@ class InputForm extends Component {
                             />
 
                         
+                        
                             </Form.Group>
                             
                             
+                           
+                                 </form>
                         
-                        </form>
             
                         </div>
 
 
                         <div className = "input_icons">
-                          
-                           
+                          <a href="" className=""> <i class="fas fa-image"></i> <span >Photo</span> </a>
+                           <a href="" className=""><i class="fas fa-video"></i> <span>Video</span>  </a>
+                           <a href="" className=""><i class="fas fa-calendar-week"></i> <span>Event</span> </a>
+                           <a href="" className = ""><i class="far fa-newspaper"></i> <span>Write Article</span> </a>
                         </div>
              </div>
             </>

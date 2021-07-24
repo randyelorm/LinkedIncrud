@@ -52,9 +52,12 @@ class MiddleColumn extends Component {
     render() {
         return (
             <div className = "middle-box col-sm-6">
+               
                 
                  <InputForm addPostFunction = {this.handleAddPost} />
                 <AllPost arraydata = {this.state.posted} selected_id = {this.handleDelete} editPost = {this.handleEdit} />  
+
+                
                
             </div>
         );

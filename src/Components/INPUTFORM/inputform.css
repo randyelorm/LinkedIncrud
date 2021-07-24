@@ -53,14 +53,41 @@ form {
     width: 20%;
 }
 
+.input_icons {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.7rem;
+}
 
+.input_icons a {
+    text-decoration: none;
+}
 
+.input_icons a:nth-of-type(1) {
+    color:#70B5F9;
+}
+
+.input_icons a:nth-of-type(2) {
+    color:#7FC15E;
+}
+
+.input_icons a:nth-of-type(3) {
+    color:#E7A33E;
+}
+.input_icons a:nth-of-type(4) {
+    color:#FC9295;
+}
 
 
 
 @media (min-width: 768px) {
     .input {
        width: 100%;
+    }
+
+    .input_icons {
+       
+        font-size: 1rem;
     }
 }
 

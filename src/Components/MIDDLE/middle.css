@@ -1,5 +1,5 @@
 .middle-box{
-    margin-top: 4rem !important;
+    margin-top: 6rem !important;
     
     margin: 0px;
     padding: 0px;
@@ -31,5 +31,13 @@ margin-top: 10rem;
 }
 
 @media (max-width: 765px) {
+
+  .middle-box{
+    margin-top: 3rem;
+    margin: 0px;
+    padding: 0px;
+ 
+
+}
    
   }
